@@ -19,6 +19,8 @@ namespace OrdenesTrabajoApp
         {
             InitializeComponent();
             Console.WriteLine("opened");
+            cbxEstado.SelectedIndex = 0;
+            cbxPrioridad.SelectedIndex = 0;
         }
 
         private void label1_Click(object sender, EventArgs e)
